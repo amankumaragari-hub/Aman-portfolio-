@@ -293,11 +293,15 @@ button {
 
 #noBtn {
 
-    background: #eeeeee;
+    background: #555555;
 
-    color: #444;
+    color: #ffffff;
 
     position: relative;
+
+    box-shadow:
+        0 6px 18px
+        rgba(0, 0, 0, 0.25);
 
 }
 
@@ -835,5 +839,22 @@ button {
         font-size: 75px;
 
     }
+
+}
+/* =========================
+   PERSONAL MESSAGE
+========================= */
+
+.made-by {
+
+    margin-top: 10px;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-style: italic;
+
+    letter-spacing: 0.5px;
 
 }
